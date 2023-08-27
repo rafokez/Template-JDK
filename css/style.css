@@ -1,22 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
 .texto-rosa {
-    color: #ff00ff; /* Substitua pela cor rosa desejada */
+    color: var(--purple1); /* Substitua pela cor rosa desejada */
   }
 
   body{
     background-color: #1b1e23;
-    
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
+/* FOKEZ */
+
+.section{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: .8rem;
+    background-color: var(--dark6);
+    min-height: 50px;
+}
+
+  /* Strong */
+
+  strong{
+    color: var(--pink);
+}
+
+  /* Criação de Variáveis para cores */
+
+  :root{
+    --white: #fff;
+    --purple1: #B36BC2;
+    --purple2: #421657;
+    --purple3: #936DB5;
+    --purple4: #B3A1CF;
+    --purple5: #4B3F73;
+    --dark6: #2f2f46;
+    --pink: rgb(237, 103, 255);
+}
+
   #btn-doar:hover{
-    color: white;
-    background-color: #ff00ff;
+    color: var(--purple1);
+    font-weight: bold;
+    border-color: var(--purple1);
+    background-color: transparent;
+    transition: .4s;
   }
 
   #btn-doar{
-    border-color: #ff00ff;
+    color: white;
+    font-weight: bold;
+    background-color: var(--purple1);
+    box-shadow: 4px;
   }
-
 
   .carousel {
     max-width: 100%;
@@ -38,7 +76,7 @@
   
   /* Personalizar o "pulso" da barra de rolagem (a alça) */
   ::-webkit-scrollbar-thumb {
-    background-color: fuchsia; /* Cor da alça */
+    background-color: var(--purple1); /* Cor da alça */
     border-radius: 5px; /* Borda arredondada */
   }
   
@@ -63,4 +101,27 @@
     border: none;
     cursor: pointer;
   }
+
+/* FOOTER FOKEZ */
+
+.title{
+  align-items: center;
+  justify-content: center;
+  color: var(--purple1);
+}
+
+  footer{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+footer > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
   
