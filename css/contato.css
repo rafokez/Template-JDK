@@ -1,0 +1,36 @@
+body{
+    background-color: #1b1e23;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .texto-rosa {
+    color: #ff00ff; /* Substitua pela cor rosa desejada */
+  }
+
+  
+/* Personalizar a barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+  }
+  
+  /* Personalizar o "pulso" da barra de rolagem (a alça) */
+  ::-webkit-scrollbar-thumb {
+    background-color: fuchsia; /* Cor da alça */
+    border-radius: 5px; /* Borda arredondada */
+  }
+  
+  /* Personalizar a pista (fundo) da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Cor de fundo da pista */
+  }
+  
+
+  
+  #btn-doar:hover{
+    color: white;
+    background-color: #ff00ff;
+  }
+
+  #btn-doar{
+    border-color: #ff00ff;
+  }
