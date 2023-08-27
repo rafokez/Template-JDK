@@ -1,3 +1,14 @@
 .texto-rosa {
     color: #ff00ff; /* Substitua pela cor rosa desejada */
   }
+
+  body{
+    background-color: #1b1e23;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  #btn-doar:hover{
+    color: white;
+    background-color: #ff00ff;
+  }
+
